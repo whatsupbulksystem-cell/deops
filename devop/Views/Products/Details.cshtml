@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+<p>Viewing Product ID: @ViewBag.ProductId</p>
+
+<div style="margin-top: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2>Product @ViewBag.ProductId</h2>
+    <p>Description: Sample product description goes here.</p>
+    <p>Price: $99.00</p>
+</div>
+
+<div style="margin-top: 20px;">
+    <a asp-action="Index" style="color: #333;">← Back to Products</a>
+</div>
